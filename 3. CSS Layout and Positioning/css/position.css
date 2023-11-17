@@ -1,0 +1,42 @@
+.container{
+    padding: 20px;
+    width:50%;
+    margin:auto;
+    border-radius: 10px;
+    height: 1200px;;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(43, 70, 99, 78);
+    border-radius: 5px;
+}
+
+.container,.box{
+    border: 1px solid black;
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+    top:20px;
+    left: 20px;;
+}
+.absolute{
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+}
+.fixed{
+    position: fixed;
+    top: 20px;
+    left:30px;
+}
+.sticky{
+    position: sticky;
+    top:20px
+}

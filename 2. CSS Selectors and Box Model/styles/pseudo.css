@@ -1,0 +1,25 @@
+article{
+    border: 1px solid #575555;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+article h2{
+    text-align: center !important;
+}
+
+article:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+article > p::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+p::selection{
+    background-color: rgba(126, 119, 119, 44);
+}
+/*important, specificity(id>class), source order */

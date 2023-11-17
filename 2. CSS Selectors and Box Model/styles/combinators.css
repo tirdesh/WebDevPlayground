@@ -1,0 +1,15 @@
+section h2{
+    text-align: center;
+}
+
+section > .article-card{
+    border: 1px solid black;
+}
+
+.box + article{
+    color: green;
+}
+
+.box ~ article{
+    font-weight: bold;
+}
